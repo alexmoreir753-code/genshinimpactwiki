@@ -1,0 +1,254 @@
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Teyvat - Genshin Wiki</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
+  <style>
+    body {
+      background: url('../assets/background21.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      position: relative;
+
+      backdrop-filter: blur(5px);
+      /* Efeito de desfoque */
+      -webkit-backdrop-filter: blur(5px);
+    }
+
+    .background-content {
+      /* ... outros estilos para o container */
+      position: relative;
+      background-color: rgba(200, 200, 200, 0.2);
+      /* Cor de fundo com transparência */
+      backdrop-filter: blur(5px);
+      /* Efeito de desfoque */
+      -webkit-backdrop-filter: blur(10px);
+      /* Suporte para navegadores mais antigos */
+    }
+
+    h2 {
+      font-size: 15px;
+    }
+
+    .tabela-teyvat {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      overflow: hidden;
+
+    }
+
+    .tabela-teyvat th,
+    .tabela-teyvat td {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 10px;
+      text-align: center;
+    }
+
+    .tabela-teyvat th {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .tabela-teyvat tr:nth-child(even) {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .tabela-teyvat tr:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .personagens-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin: 30px auto;
+      max-width: 1100px;
+    }
+
+    .card-personagem {
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 2px solid #fff;
+      border-radius: 15px;
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .card-personagem:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    }
+
+    .card-personagem img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .card-personagem h2 {
+      color: #00ffff;
+      margin-bottom: 8px;
+    }
+
+    .card-personagem p {
+      font-size: 14px;
+      color: #ddd;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <!-- MENU -->
+
+  <h1>
+    <font color="black"> O mundo de Teyvat </font>
+  </h1>
+
+  <br> <br>
+
+  <h1>
+    <font color="black"> Historia </font>
+  </h1>
+  >
+  <section class="boxed">
+    <h2>
+      <p> Este é o mundo de fantasia de Teyvat, onde dominam os Sete Elementos.
+
+        Há muito tempo, as pessoas, através de suas crenças nos Deuses, aprenderam a controlar o poder desses elementos,
+        e transformaram este lugar inóspito em suas moradias. O colapso desse império, há 500 anos, abalou os céus e a
+        terra.
+
+        Contudo, apesar da devastação ter acabado, a paz ainda não estava à vista.</p>
+    </h2>
+  </section>
+
+
+  <h1>
+    <font color="black"> Nações </font>
+  </h1>
+
+  <table class="tabela-teyvat">
+    <tr>
+      <th>Nação</th>
+      <th>Elemento</th>
+      <th>Arconte</th>
+      <th>Ideal</th>
+      <th>Corpo Governamental</th>
+    </tr>
+    <tr>
+      <td>Mondstadt</td>
+      <td>Anemo (Vento)</td>
+      <td>Barbatos (Venti)</td>
+      <td>Liberdade</td>
+      <td>Cavaleiros de Favonius</td>
+    </tr>
+    <tr>
+      <td>Liyue</td>
+      <td>Geo (Terra)</td>
+      <td>Morax (Zhongli)</td>
+      <td>Contratos</td>
+      <td>Qixing de Liyue</td>
+    </tr>
+    <tr>
+      <td>Inazuma</td>
+      <td>Electro (Raio)</td>
+      <td>Raiden Ei</td>
+      <td>Eternidade</td>
+      <td>Shogunato de Inazuma</td>
+    </tr>
+    <tr>
+      <td>Sumeru</td>
+      <td>Dendro (Natureza)</td>
+      <td>Kusanali (Nahida)</td>
+      <td>Sabedoria</td>
+      <td>Academia Sumero</td>
+    </tr>
+    <tr>
+      <td>Fontaine</td>
+      <td>Hydro (Água)</td>
+      <td>Focalors (Furina)</td>
+      <td>Justiça</td>
+      <td>Palais Marmonia</td>
+    </tr>
+    <tr>
+      <td>Natlan</td>
+      <td>Pyro (Fogo)</td>
+      <td>Murata</td>
+      <td>Guerra</td>
+      <td>Camara de Discussões</td>
+    </tr>
+    <tr>
+      <td>Snezhnaya</td>
+      <td>Cryo (Gelo)</td>
+      <td>Tsaritsa</td>
+      <td>Desconhecido</td>
+      <td>Desconhecido</td>
+    </tr>
+  </table>
+
+  <font color="black">
+    <h1> Nações antigas de Teyvat</h1>
+  </font>
+
+  <h2>
+    <center>
+      <font color="black"> Khaenri'ah </font>
+    </center>
+  </h2>
+
+  <section class="boxed">
+    <h2>
+      <p> Khaenri'ah foi uma civilização antiga que foi destruída 500 anos atrás com a queda da Dinastia Eclipse. Pouco
+        se sabe sobre o país, além do fato de que foi uma civilização subterrânea que dependia de sua forma de alquimia
+        doadora de vida (chamada de Arte de Khemia) para sobreviver. </p>
+    </h2>
+  </section>
+
+  <h2>
+    <center>
+      <font color="black"> Celestia </font>
+    </center>
+  </h2>
+
+  <section class="boxed">
+    <h2>
+      <p> Celestia ilha flutuante no céu onde residem os deuses. O povo de Teyvat acredita que os mortais escolhidos
+        para ascender à divindade se juntarão ao panteão em Celestia. </p>
+    </h2>
+  </section>
+
+  <h2>
+    <center>
+      <font color="black"> Mar Sombrio </font>
+    </center>
+  </h2>
+
+  <section class="boxed">
+    <h2>
+      <p> O Mar Sombrio é um termo para as regiões além do continente de Teyvat e da proteção dos Os Sete. Acredita-se
+        que muitos deuses que foram derrotados na Guerra dos Arcontes se recusaram a viver sob a ordem dos Sete e
+        fugiram para o Mar Sombrio. </p>
+    </h2>
+  </section>
+
+
+
+
+</body>
+
+</html>
